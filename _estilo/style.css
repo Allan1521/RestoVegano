@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+/*menu  */
+.container{
+    margin: 0 auto;
+    width: 1440px;
+    }
+/* menu.nave */
+.menu-nave{ 
+    width: 100%;
+}
+.menu-nave ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.menu-nave li{
+    margin-top: 35px;
+    font-size: 20px;
+    font-family:"libre Franklin";
+}
+.menu-nave li a{
+    margin-right: 100px;
+}
+.menu-nave h1{
+    font-size: 30px;
+    color: #000;
+    font-family: Rancho;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+header section.comida-casera{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+div.comida-casera-vegana{
+    width: 50%;
+    
+}
+div.comida-vegana{
+    width: 50%;
+
+}
+div.comida-vegana img{
+    width: 80%;
+
+}
