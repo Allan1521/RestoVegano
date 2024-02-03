@@ -1,31 +1,41 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} 
+}
+
+
 /*menu  */
-.container{
+
+.container {
     margin: 0 auto;
     width: 1440px;
-    }
+}
+
+
 /* menu.nave */
-.menu-nave{ 
+
+.menu-nave {
     width: 100%;
 }
-.menu-nave ul{
+
+.menu-nave ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
 }
-.menu-nave li{
+
+.menu-nave li {
     margin-top: 35px;
     font-size: 20px;
-    font-family:"libre Franklin";
+    font-family: "libre Franklin";
 }
-.menu-nave li a{
+
+.menu-nave li a {
     margin-right: 100px;
 }
-.menu-nave h1{
+
+.menu-nave h1 {
     font-size: 30px;
     color: #000;
     font-family: Rancho;
@@ -34,22 +44,87 @@
     font-weight: 400;
     line-height: normal;
 }
-header section.comida-casera{
+
+
+/* header */
+
+header section.comida-casera {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-
-
 }
-div.comida-casera-vegana{
+
+div.comida-casera-vegana {
+    display: flex;
+    justify-content: center;
+    position: relative;
     width: 50%;
-    
+    font-size: 48px;
+    line-height: 48px;
+    height: 840px;
 }
-div.comida-vegana{
-    width: 50%;
 
+div.comida-casera-vegana p {
+    position: absolute;
+    top: 170px;
+    width: 443px;
+    color: #000;
+    font-size: 48px;
+    font-family: "Josefin Sans";
+    font-weight: 300;
+    font-style: normal;
+    list-style: normal;
 }
-div.comida-vegana img{
+
+div.comida-casera-vegana p span {
+    color: #2A9D8F;
+    font-family: "Josefin Sans";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+div.comida-vegana {
+    width: 50%;
+}
+
+div.comida-vegana img {
     width: 80%;
+}
 
+div.menu-button {
+    position: absolute;
+    top: 50%;
+    border-radius: 10px;
+    font-size: 22px;
+}
+/* :nth-child(1) acessa elemento filho que for especificado . ex.: span:nth-child(1) irá selecionr somente o primeiro filho  span*/
+div.menu-button span:nth-child(1) {
+    width: 165px;
+    height: 50px;
+    display: inline-block;
+    background: #E76F51;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 0px #F4A261;
+    text-align: center;
+    color: #FFF;
+    font-family: "Libre Franklin";
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 96px;
+}
+
+div.icon-main {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 448px;
+    height: 120px;
+}
+f
+div.icon span {
+    font-size: 35px;
+    
 }
