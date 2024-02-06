@@ -87,11 +87,34 @@ div.comida-casera-vegana p span {
 
 div.comida-vegana {
     width: 50%;
+    position: relative;
 }
 
 div.comida-vegana img {
-    width: 80%;
+    width: 600px;
+    height: 838px;
 }
+div.comida-vegana ion-icon{
+    position: absolute;
+}
+ion-icon.setaesq{
+
+background: #ffff;
+padding: 0 20px;
+font-size: 3em;
+bottom: 4%;
+margin-left: 6%;
+background:rgba(255,255,255, 0.5);
+}
+ion-icon.setadir{
+
+background:rgba(255,255,255, 0.5);
+padding: 0 20px;
+font-size: 3em;
+bottom: 4%;
+margin-left:-18%;
+}
+
 
 div.menu-button {
     position: absolute;
@@ -115,6 +138,7 @@ div.menu-button span:nth-child(1) {
     margin-right: 96px;
 }
 
+
 div.icon-main {
     position: absolute;
     bottom: 0;
@@ -122,9 +146,55 @@ div.icon-main {
     justify-content: space-around;
     width: 448px;
     height: 120px;
+    
 }
-f
+div.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+}
+div.icon .leaf, .rocket{
+    border-right: 1px solid black;
+}
+div.icon ion-icon{
+    padding: 0 50px;
+}
 div.icon span {
     font-size: 35px;
     
+}
+/*page01 */
+section.especialidades {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.section{
+    background-color: #efefef;
+
+
+}
+h1{
+    color: #000;
+    font-family: Rancho;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+
+}
+h4{
+    
+    color: #E76F51;
+    font-family: "Josefin Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.especialidades{
+    background-color:#efefef;
+
 }
