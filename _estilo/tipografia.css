@@ -2,10 +2,9 @@ h1, h2, h3 {
     font-family: 'Rancho';
     color: black;
     text-align: center;
-   
 }
 
-h4 {
+  h4 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 48px;
     font-weight: 300;
@@ -13,6 +12,7 @@ h4 {
 }
 
 /* Menu */
+
 .menu-nav h1 {
     font-size: 96px;
     font-weight: 400;
@@ -28,6 +28,7 @@ h4 {
 }
 
 /* Pagina um */
+
 .about span {
     color: #2A9D8F;
     font-size: 48px;

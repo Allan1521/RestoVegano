@@ -94,25 +94,28 @@ div.comida-vegana img {
     width: 600px;
     height: 838px;
 }
-div.comida-vegana ion-icon{
+
+div.comida-vegana ion-icon {
     position: absolute;
 }
-ion-icon.setaesq{
 
-background: #ffff;
-padding: 0 20px;
-font-size: 3em;
-bottom: 4%;
-margin-left: 6%;
-background:rgba(255,255,255, 0.5);
+ion-icon.setaesq {
+
+    background: #ffff;
+    padding: 0 20px;
+    font-size: 3em;
+    bottom: 4%;
+    margin-left: 6%;
+    background: rgba(255, 255, 255, 0.5);
 }
-ion-icon.setadir{
 
-background:rgba(255,255,255, 0.5);
-padding: 0 20px;
-font-size: 3em;
-bottom: 4%;
-margin-left:-18%;
+ion-icon.setadir {
+
+    background: rgba(255, 255, 255, 0.5);
+    padding: 0 20px;
+    font-size: 3em;
+    bottom: 4%;
+    margin-left: -18%;
 }
 
 
@@ -122,6 +125,7 @@ div.menu-button {
     border-radius: 10px;
     font-size: 22px;
 }
+
 /* :nth-child(1) acessa elemento filho que for especificado . ex.: span:nth-child(1) irá selecionr somente o primeiro filho  span*/
 div.menu-button span:nth-child(1) {
     width: 165px;
@@ -146,47 +150,72 @@ div.icon-main {
     justify-content: space-around;
     width: 448px;
     height: 120px;
-    
+
 }
-div.icon{
+
+div.icon {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-weight: bold;
 }
-div.icon .leaf, .rocket{
+
+div.icon .leaf, .rocket {
     border-right: 1px solid black;
 }
-div.icon ion-icon{
+
+div.icon ion-icon {
     padding: 0 50px;
 }
+
 div.icon span {
     font-size: 35px;
-    
+
 }
+
 /*page01 */
+
 section.especialidades {
-    margin: 0 auto;
-    display: flex;
+    width: 100%;
     justify-content: space-between;
-}
-.section{
     background-color: #efefef;
-
-
 }
-h1{
+
+.especialidades h2, h4 {
+    text-align: center;
+}
+
+.especialidades1 {
+    display: flex;
+}
+
+.especialidades-info {
+    width: 30%;
+}
+
+.especialidades-info h2, h3 {
+    border-bottom: 1px solid black;
+    padding: 25px 0;
+}
+
+.especialidades-info p {
+    margin: 50px 0;
+}
+
+.preco p {
+    padding: 25px, 0;
+}
+
+h4 {
     color: #000;
     font-family: Rancho;
     font-size: 64px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    
-
 }
-h4{
-    
+
+h2 {
     color: #E76F51;
     font-family: "Josefin Sans";
     font-size: 24px;
@@ -194,7 +223,37 @@ h4{
     font-weight: 400;
     line-height: normal;
 }
-.especialidades{
-    background-color:#efefef;
 
+h3 {
+    color: #000;
+
+    font-family: "Josefin Sans";
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+p {
+    color: #000;
+    font-family: "Libre Franklin";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.button span {
+    border-radius: 15px;
+    background: #2A9D8F;
+    width: 170px;
+    height: 50px;
+    width: 165px;
+    display: inline-block;
+    text-align: center;
+    color: #FFF;
+    font-family: "Libre Franklin";
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 96px;
+   
 }
